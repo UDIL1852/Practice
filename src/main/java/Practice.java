@@ -11,6 +11,6 @@ public class Practice {
         System.out.println(12);
         System.out.println(" 8 + 4 = " + 12);
         System.out.println(" 12 x 1 = " + 12);
-        /* 클레스 이름 스펠링 수정 */
+        //* 클레스 이름 스펠링 수정 *//
     }
 }
