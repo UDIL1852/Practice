@@ -13,5 +13,6 @@ public class Practice2 {
                 num5 = 2.0000001;
                 result = num4 + num5;
                 System.out.println(result);
+                // 실험중 //
     }
 }
