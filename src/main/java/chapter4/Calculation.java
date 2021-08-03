@@ -20,6 +20,8 @@ public class Calculation {
         // 이 위에는 내가 한거 아래는 친구가 알려준 거
         int ans=((25*5)+(36-4)-72)/5;
         System.out.println(" The answer is = " + ans);
+
+
         // 이어서 다른거
         int ans2 = 11;
         int ans3 = 22;
@@ -78,18 +80,6 @@ public class Calculation {
         System.out.print((m1--) + " ");
         System.out.print((m1--) + " ");
         System.out.print(m1);
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 }
