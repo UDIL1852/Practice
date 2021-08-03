@@ -50,6 +50,40 @@ public class Calculation {
         System.out.println(" 퀴즈 3이 퀴즈 2보다 큼?" + result);
         //문제는 n2 > n3 를 물어봤지만 그냥 true 가 만들고 싶어서 바꿈
 
+        //부호 연산자
+        short n = 5;
+        System.out.println(+n); //양수에 + 인 양수 부호를 더 해봤자 의미 없긴할듯
+        System.out.println(-n); //이거는 - 를 붙혀서 -5가 될거고
+
+        short n1 = 7;
+        short n2 = (short)(+n1); //형 변환을 하지 않으면 오류 발생한다는데 뭔소리지
+        short n3 = (short)(-n1);
+        System.out.println(n2);
+        System.out.println(n3);
+        //n 처럼 곧장 프린트를 했어도 됬지만 n2랑 n3라는 새로운 이름을 사용하고 싶어서 n2,n3를 만든듯?
+
+        //증가 및 감소 연산
+        // val = ++n, val = --n 은 값을 반환하는게 아닌 실제 변수에 값을 변환하는 것
+        int m = 7;
+        System.out.println(++m); //7에서 +1이 증가한 것 같은데?
+        System.out.println(++m); //7에서 +1이 증가한거에 +1을 시킨건가?
+        System.out.println(m); //이건 최종 결과 값인듯
+
+        // val = n++, val = n-- 은 즉시 연산이 되는게 아닌 다음 문장으로 넘어가야 반영이 됨
+        int m1 = 5;
+        System.out.print((m1++) + " ");
+        System.out.print((m1++) + " ");
+        System.out.print((m1) + "\n"); // \n은 행 변경임 println은 행을 그때그때 변경시키지만 print는 변경하지않고 출력함
+
+        System.out.print((m1--) + " ");
+        System.out.print((m1--) + " ");
+        System.out.print(m1);
+
+
+
+
+
+
 
 
 
