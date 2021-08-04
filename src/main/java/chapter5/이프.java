@@ -47,7 +47,42 @@ public class 이프 {
         if(num1 > 0 && (num1 % 2) == 0)
             System.out.println("양수이면서 짝수");
 
+        //조건 연산자 사용 없이 if ~ else문 사용하기
+        //문제
 
+        int num2 = 50;
+        int num3 = 100;
+        int big;
+        int diff;
+
+        //big = (num2 > num3) ? num2 : num3;
+        //System.out.println("큰 수:" +big); < 100이 출력되야함
+
+        //diff = (num2 > num3) ? (num2 - num3) : (num3 - num2);
+        //System.out.println("절대값 : " +diff); < 50이 출력되야함
+
+        //내 답
+        //{if (num2 > num3);
+
+        //else if (num2 < num3)
+            //System.out.println("정답은? :" + " num2 < num3");
+        //}
+
+        //너무 어려워서 답안지 봄...
+        if(num2 > num3)
+            big = num2;
+        else
+            big = num3;
+
+        System.out.println(big);
+
+        if(num2 > num3)
+            diff = num2 - num3;
+        else
+            diff = num3 - num2;
+        System.out.println(diff);
+
+        // 왜 이 생각을 못했지.....?
 
 
         }
