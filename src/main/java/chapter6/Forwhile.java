@@ -44,5 +44,6 @@ public class Forwhile {
         }while (q2 > 1 );
         //while(num <= 100)
             //System.out.println(num++);
+
     }
 }
