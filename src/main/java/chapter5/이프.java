@@ -84,6 +84,45 @@ public class 이프 {
 
         // 왜 이 생각을 못했지.....?
 
+        int s = 3;
+        {
+            if (s < 2)
+                System.out.println(" simple 자바");
+            if (s > 4)
+                System.out.println("Funny java");
+            if (s == 3)
+                System.out.println("Fantastic java");
+        }
+        System.out.println("Do you like java? ");
+
+        // 5-3 문제1 답
+      //  int n = 3;
+
+        //if(n == 1)
+            //System.out.println("Simple Java");
+        //else if(n == 2)
+            //System.out.println("Funny Java");
+        //else if(n == 3)
+            //System.out.println("Fantastic Java");
+        //else
+            //System.out.println("The best programming language");
+
+        //System.out.println("Do you like coffee?");
+
+        int a = 24;
+
+        switch (a){
+            case 20:
+            System.out.println("Up");
+            case 25:
+                System.out.println("Down");
+            case 24:
+                System.out.println("Yes, Im 24years old");
+            default:
+                System.out.println("이걸 못맞춤?");
+        }
+        System.out.println("나이 맞추기 게임");
+
 
         }
 }
