@@ -74,5 +74,6 @@ public class Forwhile {
             for (int a4 = 1; a4 < 10; a4++) // a4 시작을 1로 두고 10보다 작을때까지 반복시킴
                 System.out.println("구구단 6단 =" + (6 * a4)); // 6 * a4(1~9) 반복출력
         }
+
     }
 }
